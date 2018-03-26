@@ -46,3 +46,9 @@ areas where REST works well for are:
 Limited bandwidth and resources: remember the return structure is really in any format (developer defined). Plus, any browser can be used because the REST approach uses the standard GET, PUT, POST, and DELETE verbs. Again, remember that REST can also use the XMLHttpRequest object that most modern browsers support today, which adds a bonus of AJAX.
 stateless operations: if an operation needs to be continued, then REST is not the best approach and SOAP may fit it better. However, if you need stateless CRUD (Create, Read, Update, and Delete) operations, then REST is it.
 Caching situations: if the information can be cached because of the stateless operation of the REST approach, this is perfect.
+
+# Reference
+
+https://stackoverflow.com/questions/671118/what-exactly-is-restful-programming?rq=1
+
+https://stackoverflow.com/questions/19884295/soap-vs-rest-differences?rq=1
